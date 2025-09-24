@@ -1,0 +1,429 @@
+{
+    "student_1": {
+        "academic_skills": {
+            "grade": 8,
+            "explanation": "The student received the grade 8 for the competence \"academic_skills\". Instructions used for evaluation: Evaluate the student's academic skills in mathematics, reading, writing, and science. Assign a score from 0 to 10 based on overall performance. Rules: 10: Strong and consistent mastery of concepts, accurate problem-solving, and deep understanding. 8: Good performance with minor errors or areas for improvement. 6: Adequate but requires support in some areas. 4: Low performance, frequent difficulties. 2: Very low, limited understanding or minimal effort. Chunks considered: academic_skills: The student has demonstrated strong performance in mathematics, solving problems accurately and applying concepts consistently. In re skills: The student shows great autonomy in organizing tasks and managing his study time. He is responsible and consistently meets his academic commit uting to a positive classroom environment. learning_and_thinking_skills: The",
+            "relevant_chunks": [
+                {
+                    "score": 0.6667882204055786,
+                    "text": "academic_skills: The student has demonstrated strong performance in mathematics, solving problems accurately and applying concepts consistently. In re",
+                    "chunk_id": "student_1_chunk_0000"
+                },
+                {
+                    "score": 0.5242515206336975,
+                    "text": "skills: The student shows great autonomy in organizing tasks and managing his study time. He is responsible and consistently meets his academic commit",
+                    "chunk_id": "student_1_chunk_0004"
+                },
+                {
+                    "score": 0.5135340690612793,
+                    "text": "uting to a positive classroom environment.\nlearning_and_thinking_skills: The student displays strong critical thinking, capable of analyzing informati",
+                    "chunk_id": "student_1_chunk_0007"
+                }
+            ],
+            "weight": 0.3
+        },
+        "socioemotional_skills": {
+            "grade": 8,
+            "explanation": "The student received the grade 8 for the competence \"socioemotional_skills\". Instructions used for evaluation: Evaluate socioemotional skills based on autonomy, responsibility, self-control, empathy, and collaboration. Assign a score from 0 to 10. Rules: 10: Excellent emotional management, high autonomy, empathetic, responsible, and collaborative. 8: Good management with minor areas for improvement. 6: Adequate, with difficulties in some areas. 4: Weak, notable difficulties in managing emotions and relationships. 2: Very low, constant conflicts or little responsibility. Chunks considered: skills: The student shows great autonomy in organizing tasks and managing his study time. He is responsible and consistently meets his academic commit ing strengths and areas for improvement. He maintains a positive attitude towards learning, with motivation, perseverance, and academic self-esteem s calm in the face of difficulties. He shows empathy towards his classmates and",
+            "relevant_chunks": [
+                {
+                    "score": 0.6912646293640137,
+                    "text": "skills: The student shows great autonomy in organizing tasks and managing his study time. He is responsible and consistently meets his academic commit",
+                    "chunk_id": "student_1_chunk_0004"
+                },
+                {
+                    "score": 0.5774257779121399,
+                    "text": "ifying strengths and areas for improvement. He maintains a positive attitude towards learning, with motivation, perseverance, and academic self-esteem",
+                    "chunk_id": "student_1_chunk_0017"
+                },
+                {
+                    "score": 0.5427238941192627,
+                    "text": "s calm in the face of difficulties. He shows empathy towards his classmates and collaborates actively, contributing to a positive classroom environmen",
+                    "chunk_id": "student_1_chunk_0006"
+                }
+            ],
+            "weight": 0.1
+        },
+        "learning_and_thinking_skills": {
+            "grade": 8,
+            "explanation": "The student received the grade 8 for the competence \"learning_and_thinking_skills\". Instructions used for evaluation: Evaluate critical thinking, curiosity, initiative, creativity, planning, and organization. Assign a score from 0 to 10. Rules: 10: Strong critical thinking, high curiosity and creativity, excellent planning. 8: Good level, with some areas to improve. 6: Basic skills, requires guidance. 4: Weak, limited critical thinking and creativity. 2: Very low, lack of initiative and disorganization. Chunks considered: academic_skills: The student has demonstrated strong performance in mathematics, solving problems accurately and applying concepts consistently. In re uting to a positive classroom environment. learning_and_thinking_skills: The student displays strong critical thinking, capable of analyzing informati ing strengths and areas for improvement. He maintains a positive attitude towards learning, with motivation, persever",
+            "relevant_chunks": [
+                {
+                    "score": 0.5628441572189331,
+                    "text": "academic_skills: The student has demonstrated strong performance in mathematics, solving problems accurately and applying concepts consistently. In re",
+                    "chunk_id": "student_1_chunk_0000"
+                },
+                {
+                    "score": 0.5585007667541504,
+                    "text": "uting to a positive classroom environment.\nlearning_and_thinking_skills: The student displays strong critical thinking, capable of analyzing informati",
+                    "chunk_id": "student_1_chunk_0007"
+                },
+                {
+                    "score": 0.5436153411865234,
+                    "text": "ifying strengths and areas for improvement. He maintains a positive attitude towards learning, with motivation, perseverance, and academic self-esteem",
+                    "chunk_id": "student_1_chunk_0017"
+                }
+            ],
+            "weight": 0.2
+        },
+        "communication_skills": {
+            "grade": 8,
+            "explanation": "The student communicates clearly and effectively, both orally and in writing. He actively participates in debates and presentations, structuring ideas coherently. He demonstrates active listening skills, understanding and res d innovative projects. In addition, he organizes activities and plans his work efficiently, optimizing resources and time.",
+            "relevant_chunks": [
+                {
+                    "score": 0.6679450273513794,
+                    "text": "es and time.\ncommunication_skills: The student communicates clearly and effectively, both orally and in writing. He actively participates in debates a",
+                    "chunk_id": "student_1_chunk_0011"
+                },
+                {
+                    "score": 0.6046948432922363,
+                    "text": "g. He actively participates in debates and presentations, structuring ideas coherently. He demonstrates active listening skills, understanding and res",
+                    "chunk_id": "student_1_chunk_0012"
+                },
+                {
+                    "score": 0.5028465986251831,
+                    "text": "d innovative projects. In addition, he organizes activities and plans his work efficiently, optimizing resources and time.\ncommunication_skills: The s",
+                    "chunk_id": "student_1_chunk_0010"
+                }
+            ],
+            "weight": 0.2
+        },
+        "guidance_skills": {
+            "grade": 8,
+            "explanation": "The student received the grade 8 for the competence \"guidance_skills\". Instructions used for evaluation: Evaluate adaptation, participation, conflict management, self-assessment, motivation, and perseverance. Assign a score from 0 to 10. Rules: 10: Excellent adaptation, high motivation, good conflict management and self-assessment. 8: Good level, minor areas to improve. He maintains a positive attitude towards learning, with motivation, perseverance, and academic self-esteem ts easily to the school environment and participates in the educational community. He manages conflicts peacefully and thoughtfully, seeking solutions",
+            "relevant_chunks": [
+                {
+                    "score": 0.7084386348724365,
+                    "text": ", perseverance, and academic self-esteem.",
+                    "chunk_id": "student_1_chunk_0018"
+                },
+                {
+                    "score": 0.6833984851837158,
+                    "text": "ifying strengths and areas for improvement. He maintains a positive attitude towards learning, with motivation, perseverance, and academic self-esteem",
+                    "chunk_id": "student_1_chunk_0017"
+                },
+                {
+                    "score": 0.5778961181640625,
+                    "text": "ts easily to the school environment and participates in the educational community. He manages conflicts peacefully and thoughtfully, seeking solutions",
+                    "chunk_id": "student_1_chunk_0015"
+                }
+            ],
+            "weight": 0.2
+        },
+        "global grade": 8.0
+    },
+    "student_2": {
+        "academic_skills": {
+            "grade": 6,
+            "explanation": "The student received the grade 6 for the competence \"academic_skills\". Instructions used for evaluation: Evaluate the student's academic skills in mathematics, reading, writing, and science. Assign a score from 0 to 10 based on overall performance. Rules: 10: Strong and consistent mastery of concepts, accurate problem-solving, and deep understanding. 8: Good performance with minor errors or areas for improvement. 6: Adequate but requires support in some areas. 4: Low performance, frequent difficulties. 2: Very low, limited understanding or minimal effort. Chunks considered: academic_skills: The student shows interest in mathematics but requires additional support to solve complex problems and consolidate concepts. In read nagement skills. learning_and_thinking_skills: The student shows curiosity for learning but needs guidance to develop critical thinking and analytical skills. He shows interest in learning, although his motivation and academic self-",
+            "relevant_chunks": [
+                {
+                    "score": 0.7111241817474365,
+                    "text": "academic_skills: The student shows interest in mathematics but requires additional support to solve complex problems and consolidate concepts. In read",
+                    "chunk_id": "student_2_chunk_0000"
+                },
+                {
+                    "score": 0.5723172426223755,
+                    "text": "nagement skills.\nlearning_and_thinking_skills: The student shows curiosity for learning but needs guidance to develop critical thinking and analytical",
+                    "chunk_id": "student_2_chunk_0008"
+                },
+                {
+                    "score": 0.5274749398231506,
+                    "text": "skills. He shows interest in learning, although his motivation and academic self-esteem can improve with follow-up and positive reinforcement.",
+                    "chunk_id": "student_2_chunk_0015"
+                }
+            ],
+            "weight": 0.3
+        },
+        "socioemotional_skills": {
+            "grade": 6,
+            "explanation": "He shows interest in learning, although his motivation and academic self-esteem can improve with follow-up and positive reinforcement. He maintains good relationships with classmates, although he needs to strengthen collaboration and conflict management skills.",
+            "relevant_chunks": [
+                {
+                    "score": 0.5792277455329895,
+                    "text": "skills. He shows interest in learning, although his motivation and academic self-esteem can improve with follow-up and positive reinforcement.",
+                    "chunk_id": "student_2_chunk_0015"
+                },
+                {
+                    "score": 0.549186110496521,
+                    "text": "He maintains good relationships with classmates, although he needs to strengthen collaboration and conflict management skills.\nlearning_and_thinking_s",
+                    "chunk_id": "student_2_chunk_0007"
+                }
+            ],
+            "weight": 0.1
+        },
+        "learning_and_thinking_skills": {
+            "grade": 8,
+            "explanation": "The student received the grade 8 for the competence \"learning_and_thinking_skills\". Instructions used for evaluation: Evaluate critical thinking, curiosity, initiative, creativity, planning, and organization. Assign a score from 0 to 10. Rules: 10: Strong critical thinking, high curiosity and creativity, excellent planning. 8: Good level, with some areas to improve. 6: Basic skills, requires guidance. 4: Very low, lack of initiative and disorganization. Chunks considered: nagement skills. learning_and_thinking_skills: The student shows curiosity for learning but needs guidance to develop critical thinking and analytical skills. He shows interest in learning, although his motivation and academic self-esteem can improve with follow-up and positive reinforcement. academic_skills: The student shows interest in mathematics but requires additional support to solve complex problems and consolidate concepts.",
+            "relevant_chunks": [
+                {
+                    "score": 0.6752551198005676,
+                    "text": "nagement skills.\nlearning_and_thinking_skills: The student shows curiosity for learning but needs guidance to develop critical thinking and analytical",
+                    "chunk_id": "student_2_chunk_0008"
+                },
+                {
+                    "score": 0.586607813835144,
+                    "text": "skills. He shows interest in learning, although his motivation and academic self-esteem can improve with follow-up and positive reinforcement.",
+                    "chunk_id": "student_2_chunk_0015"
+                },
+                {
+                    "score": 0.5060374736785889,
+                    "text": "academic_skills: The student shows interest in mathematics but requires additional support to solve complex problems and consolidate concepts. In read",
+                    "chunk_id": "student_2_chunk_0000"
+                }
+            ],
+            "weight": 0.2
+        },
+        "communication_skills": {
+            "grade": 8,
+            "explanation": "The student received the grade 8 for the competence \"communication_skills\". Instructions used for evaluation: Evaluate oral and written expression, participation, active listening, and collaboration. Assign a score from 0 to 10. Rules: 10: Clear communication, excellent participation and collaboration. 8: Good communication, with minor details to improve. 6: Adequate, limited or inconsistent in expression or participation. 4: Weak, difficulties expressing ideas and collaborating. 2: Very low, minimal or confusing communication. Chunks considered: lan and organize activities more efficiently. communication_skills: The student communicates at a basic level, both orally and in writing. He particip both orally and in writing. He participates in debates and presentations in a limited way and requires support to structure ideas clearly. He needs t t to structure ideas clearly. He needs to develop active listening and cooperation skills in group work. guidance_s",
+            "relevant_chunks": [
+                {
+                    "score": 0.6302751302719116,
+                    "text": "lan and organize activities more efficiently.\ncommunication_skills: The student communicates at a basic level, both orally and in writing. He particip",
+                    "chunk_id": "student_2_chunk_0010"
+                },
+                {
+                    "score": 0.5676172375679016,
+                    "text": "both orally and in writing. He participates in debates and presentations in a limited way and requires support to structure ideas clearly. He needs t",
+                    "chunk_id": "student_2_chunk_0011"
+                },
+                {
+                    "score": 0.48023685812950134,
+                    "text": "t to structure ideas clearly. He needs to develop active listening and cooperation skills in group work.\nguidance_skills: The student is adapting to t",
+                    "chunk_id": "student_2_chunk_0012"
+                }
+            ],
+            "weight": 0.2
+        },
+        "guidance_skills": {
+            "grade": 6,
+            "explanation": "The student is adapting to the school environment and requires motivation to participate in the educational community. He needs support to ucational community. He needs support to manage conflicts constructively and to strengthen his self-assessment skills. He shows interest in learning,",
+            "relevant_chunks": [
+                {
+                    "score": 0.6430920958518982,
+                    "text": "skills. He shows interest in learning, although his motivation and academic self-esteem can improve with follow-up and positive reinforcement.",
+                    "chunk_id": "student_2_chunk_0015"
+                },
+                {
+                    "score": 0.5849814414978027,
+                    "text": "nce_skills: The student is adapting to the school environment and requires motivation to participate in the educational community. He needs support to",
+                    "chunk_id": "student_2_chunk_0013"
+                },
+                {
+                    "score": 0.5262523293495178,
+                    "text": "ucational community. He needs support to manage conflicts constructively and to strengthen his self-assessment skills. He shows interest in learning,",
+                    "chunk_id": "student_2_chunk_0014"
+                }
+            ],
+            "weight": 0.2
+        },
+        "global grade": 6.8
+    },
+    "student_3": {
+        "academic_skills": {
+            "grade": 4,
+            "explanation": "The student received the grade 4 for the competence \"academic_skills\". Instructions used for evaluation: Evaluate the student's academic skills in mathematics, reading, writing, and science. Assign a score from 0 to 10 based on overall performance. Rules: 10: Strong and consistent mastery of concepts, accurate problem-solving, and deep understanding. 8: Good performance with minor errors or areas for improvement. 6: Adequate but requires support in some areas. 4: Low performance, frequent difficulties. 2: Very low, limited understanding or minimal effort. Chunks considered: academic_skills: The student shows frequent difficulties in mathematics, often struggling to apply concepts correctly and making errors in problem-sol ce, participation is minimal, and he struggles to formulate hypotheses or draw clear conclusions. socioemotional_skills: The student has notable diffi work, often leaving tasks incomplete or poorly structured. communication",
+            "relevant_chunks": [
+                {
+                    "score": 0.6314724683761597,
+                    "text": "academic_skills: The student shows frequent difficulties in mathematics, often struggling to apply concepts correctly and making errors in problem-sol",
+                    "chunk_id": "student_3_chunk_0000"
+                },
+                {
+                    "score": 0.5283383131027222,
+                    "text": "ce, participation is minimal, and he struggles to formulate hypotheses or draw clear conclusions.\nsocioemotional_skills: The student has notable diffi",
+                    "chunk_id": "student_3_chunk_0003"
+                },
+                {
+                    "score": 0.4888681471347809,
+                    "text": "work, often leaving tasks incomplete or poorly structured.\ncommunication_skills: The student has difficulties expressing ideas clearly, both orally an",
+                    "chunk_id": "student_3_chunk_0009"
+                }
+            ],
+            "weight": 0.3
+        },
+        "socioemotional_skills": {
+            "grade": 6,
+            "explanation": "The student received the grade 6 for the competence \"socioemotional_skills\". Instructions used for evaluation: Evaluate socioemotional skills based on autonomy, responsibility, self-control, empathy, and collaboration. Assign a score from 0 to 10. Rules: 10: Excellent emotional management, high autonomy, empathetic, responsible, and collaborative. 8: Good management with minor areas for improvement. 6: Adequate, with difficulties in some areas. 4: Weak, notable difficulties in managing emotions and relationships. 2: Very low, constant conflicts or little responsibility. Chunks considered: al_skills: The student has notable difficulties managing emotions and often shows low responsibility in completing tasks. He struggles with self-contr ting tasks. He struggles with self-control and may react negatively in stressful situations. Empathy towards classmates is limited, and collaboration ce, participation is minimal, and he struggles to formulate",
+            "relevant_chunks": [
+                {
+                    "score": 0.6802215576171875,
+                    "text": "al_skills: The student has notable difficulties managing emotions and often shows low responsibility in completing tasks. He struggles with self-contr",
+                    "chunk_id": "student_3_chunk_0004"
+                },
+                {
+                    "score": 0.5648517608642578,
+                    "text": "ting tasks. He struggles with self-control and may react negatively in stressful situations. Empathy towards classmates is limited, and collaboration",
+                    "chunk_id": "student_3_chunk_0005"
+                },
+                {
+                    "score": 0.5020809173583984,
+                    "text": "ce, participation is minimal, and he struggles to formulate hypotheses or draw clear conclusions.\nsocioemotional_skills: The student has notable diffi",
+                    "chunk_id": "student_3_chunk_0003"
+                }
+            ],
+            "weight": 0.1
+        },
+        "learning_and_thinking_skills": {
+            "grade": 4,
+            "explanation": "The student received the grade 4 for the competence \"learning_and_thinking_skills\". Instructions used for evaluation: Evaluate critical thinking, curiosity, initiative, creativity, planning, and organization. Assign a score from 0 to 10. Rules: 10: Strong critical thinking, high curiosity and creativity, excellent planning. 8: Good level, with some areas to improve. 4: Weak, limited critical thinking and creativity. 2: Very low, lack of initiative and disorganization. Chunks considered: earning_and_thinking_skills: The student demonstrates weak critical thinking and limited curiosity about new topics. Initiative is low, and creativity",
+            "relevant_chunks": [
+                {
+                    "score": 0.5594725608825684,
+                    "text": "earning_and_thinking_skills: The student demonstrates weak critical thinking and limited curiosity about new topics. Initiative is low, and creativity",
+                    "chunk_id": "student_3_chunk_0007"
+                }
+            ],
+            "weight": 0.2
+        },
+        "communication_skills": {
+            "grade": 8,
+            "explanation": "The student received the grade 8 for the competence \"communication_skills\". Instructions used for evaluation: Evaluate oral and written expression, participation, active listening, and collaboration. Assign a score from 0 to 10. Rules: 10: Clear communication, excellent participation and collaboration. 8: Good communication, with minor details to improve. 6: Adequate, limited or inconsistent in expression or participation. 4: Weak, difficulties expressing ideas and collaborating. 2: Very low, minimal or confusing communication. Chunks considered: work, often leaving tasks incomplete or poorly structured. communication_skills: The student has difficulties expressing ideas clearly, both orally an expressing ideas clearly, both orally and in writing. Participation in class discussions is scarce, and when present, contributions are often unclear ce, participation is minimal, and he struggles to formulate hypotheses or draw clear conclusions. socioemotional_skills: The student has",
+            "relevant_chunks": [
+                {
+                    "score": 0.6080659627914429,
+                    "text": "work, often leaving tasks incomplete or poorly structured.\ncommunication_skills: The student has difficulties expressing ideas clearly, both orally an",
+                    "chunk_id": "student_3_chunk_0009"
+                },
+                {
+                    "score": 0.5417030453681946,
+                    "text": "expressing ideas clearly, both orally and in writing. Participation in class discussions is scarce, and when present, contributions are often unclear",
+                    "chunk_id": "student_3_chunk_0010"
+                },
+                {
+                    "score": 0.49432915449142456,
+                    "text": "ce, participation is minimal, and he struggles to formulate hypotheses or draw clear conclusions.\nsocioemotional_skills: The student has notable diffi",
+                    "chunk_id": "student_3_chunk_0003"
+                }
+            ],
+            "weight": 0.2
+        },
+        "guidance_skills": {
+            "grade": 6,
+            "explanation": "The student received the grade 6 for the competence \"guidance_skills\". Instructions used for evaluation: Evaluate adaptation, participation, conflict management, self-assessment, motivation, and perseverance. Assign a score from 0 to 10. Rules: 10: Excellent adaptation, high motivation, good conflict management and self-assessment. 8: Good level, minor areas to improve. 6: Adequate, needs support in adaptation, motivation, or self-assessment. 4: Weak, difficulties in adaptation, conflict management, or motivation. 2: Very low, no adaptation, low motivation, and lack of awareness of strengths. Chunks considered: student finds it difficult to adapt to the school environment and often shows low motivation. Conflict management is weak, sometimes leading to unreso ce, participation is minimal, and he struggles to formulate hypotheses or draw clear conclusions. socioemotional_skill",
+            "relevant_chunks": [
+                {
+                    "score": 0.5355745553970337,
+                    "text": "student finds it difficult to adapt to the school environment and often shows low motivation. Conflict management is weak, sometimes leading to unreso",
+                    "chunk_id": "student_3_chunk_0013"
+                },
+                {
+                    "score": 0.5338517427444458,
+                    "text": "ce, participation is minimal, and he struggles to formulate hypotheses or draw clear conclusions.\nsocioemotional_skills: The student has notable diffi",
+                    "chunk_id": "student_3_chunk_0003"
+                }
+            ],
+            "weight": 0.2
+        },
+        "global grade": 5.4
+    },
+    "student_4": {
+        "academic_skills": {
+            "grade": 6,
+            "explanation": "The student received the grade 6 for the competence \"academic_skills\". Instructions used for evaluation: Evaluate the student's academic skills in mathematics, reading, writing, and science. Assign a score from 0 to 10 based on overall performance. Rules: 10: Strong and consistent mastery of concepts, accurate problem-solving, and deep understanding. 8: Good performance with minor errors or areas for improvement. 6: Adequate but requires support in some areas. 4: Low performance, frequent difficulties. 2: Very low, limited understanding or minimal effort. Chunks considered: academic_skills: The student shows an adequate understanding of mathematics but often requires support to solve more complex problems. Reading compreh n of tasks require frequent teacher support to be effective. communication_skills: The student communicates ideas in an adequate manner but sometimes",
+            "relevant_chunks": [
+                {
+                    "score": 0.7341583967208862,
+                    "text": "academic_skills: The student shows an adequate understanding of mathematics but often requires support to solve more complex problems. Reading compreh",
+                    "chunk_id": "student_4_chunk_0000"
+                },
+                {
+                    "score": 0.4904080927371979,
+                    "text": "n of tasks require frequent teacher support to be effective.\ncommunication_skills: The student communicates ideas in an adequate manner but sometimes",
+                    "chunk_id": "student_4_chunk_0009"
+                }
+            ],
+            "weight": 0.3
+        },
+        "socioemotional_skills": {
+            "grade": 6,
+            "explanation": "The student received the grade 6 for the competence \"socioemotional_skills\". Instructions used for evaluation: Evaluate socioemotional skills based on autonomy, responsibility, self-control, empathy, and collaboration. Assign a score from 0 to 10. Rules: 10: Excellent emotional management, high autonomy, empathetic, responsible, and collaborative. 8: Good management with minor areas for improvement. 6: Adequate, with difficulties in some areas. 4: Weak, notable difficulties in managing emotions and relationships. 2: Very low, constant conflicts or little responsibility. Chunks considered: student demonstrates some autonomy and responsibility in his tasks, but these qualities are inconsistent. He usually manages his emotions but occasio n guided but struggles to fully connect concepts and explain results independently. socioemotional_skills: The student demonstrates some autonomy and usually manages his emotions but occasionally reacts with",
+            "relevant_chunks": [
+                {
+                    "score": 0.7270699739456177,
+                    "text": "student demonstrates some autonomy and responsibility in his tasks, but these qualities are inconsistent. He usually manages his emotions but occasio",
+                    "chunk_id": "student_4_chunk_0004"
+                },
+                {
+                    "score": 0.6086783409118652,
+                    "text": "n guided but struggles to fully connect concepts and explain results independently.\nsocioemotional_skills: The student demonstrates some autonomy and",
+                    "chunk_id": "student_4_chunk_0003"
+                },
+                {
+                    "score": 0.5490527749061584,
+                    "text": "usually manages his emotions but occasionally reacts with frustration under pressure. Empathy and collaboration are present but limited, needing encou",
+                    "chunk_id": "student_4_chunk_0005"
+                }
+            ],
+            "weight": 0.1
+        },
+        "learning_and_thinking_skills": {
+            "grade": 8,
+            "explanation": "The student received the grade 8 for the competence \"learning_and_thinking_skills\". Instructions used for evaluation: Evaluate critical thinking, curiosity, initiative, creativity, planning, and organization. Assign a score from 0 to 10. Rules: 10: Strong critical thinking, high curiosity and creativity, excellent planning. 8: Good level, with some areas to improve. 6: Basic skills, requires guidance. 4: Weak, limited critical thinking and creativity. 2: Very low, lack of initiative and disorganization. Chunks considered: academic_skills: The student shows an adequate understanding of mathematics but often requires support to solve more complex problems. Reading compreh n guided but struggles to fully connect concepts and explain results independently. socioemotional_skills: The student demonstrates some autonomy and and initiative appear occasionally but are not sustained. Creativity is limited, and planning and organization of tasks require frequent teacher su",
+            "relevant_chunks": [
+                {
+                    "score": 0.5540798902511597,
+                    "text": "academic_skills: The student shows an adequate understanding of mathematics but often requires support to solve more complex problems. Reading compreh",
+                    "chunk_id": "student_4_chunk_0000"
+                },
+                {
+                    "score": 0.5454634428024292,
+                    "text": "n guided but struggles to fully connect concepts and explain results independently.\nsocioemotional_skills: The student demonstrates some autonomy and",
+                    "chunk_id": "student_4_chunk_0003"
+                },
+                {
+                    "score": 0.5278835892677307,
+                    "text": "and initiative appear occasionally but are not sustained. Creativity is limited, and planning and organization of tasks require frequent teacher supp",
+                    "chunk_id": "student_4_chunk_0008"
+                }
+            ],
+            "weight": 0.2
+        },
+        "communication_skills": {
+            "grade": 6,
+            "explanation": "The student received the grade 6 for the competence \"communication_skills\". Instructions used for evaluation: Evaluate oral and written expression, participation, active listening, and collaboration. Assign a score from 0 to 10. Rules: 10: Clear communication, excellent participation and collaboration. 8: Good communication, with minor details to improve. 6: Adequate, limited or inconsistent in expression or participation. 4: Weak, difficulties expressing ideas and collaborating. 2: Very low, minimal or confusing communication. Chunks considered: n of tasks require frequent teacher support to be effective. communication_skills: The student communicates ideas in an adequate manner but sometimes academic_skills: The student shows an adequate understanding of mathematics but often requires support to solve more complex problems. Reading compreh s is irregular, and contributions may lack depth. Active listening is inconsistent, and collaboration in group work is acceptable but could be improve",
+            "relevant_chunks": [
+                {
+                    "score": 0.5548882484436035,
+                    "text": "n of tasks require frequent teacher support to be effective.\ncommunication_skills: The student communicates ideas in an adequate manner but sometimes",
+                    "chunk_id": "student_4_chunk_0009"
+                },
+                {
+                    "score": 0.4846751391887665,
+                    "text": "academic_skills: The student shows an adequate understanding of mathematics but often requires support to solve more complex problems. Reading compreh",
+                    "chunk_id": "student_4_chunk_0000"
+                },
+                {
+                    "score": 0.47754979133605957,
+                    "text": "s is irregular, and contributions may lack depth. Active listening is inconsistent, and collaboration in group work is acceptable but could be improve",
+                    "chunk_id": "student_4_chunk_0011"
+                }
+            ],
+            "weight": 0.2
+        },
+        "guidance_skills": {
+            "grade": 6,
+            "explanation": "The student received the grade 6 for the competence \"guidance_skills\". Instructions used for evaluation: Evaluate adaptation, participation, conflict management, self-assessment, motivation, and perseverance. Assign a score from 0 to 10. Rules: 10: Excellent adaptation, high motivation, good conflict management and self-assessment. 8: Good level, minor areas to improve. 6: Adequate, needs support in adaptation, motivation, or self-assessment. 4: Weak, difficulties in adaptation, conflict management, or motivation. 2: Very low, no adaptation, low motivation, and lack of awareness of strengths. Chunks considered: tely well to the school environment but sometimes faces difficulties in motivation and perseverance. Conflict management is basic, and self-assessment academic_skills: The student shows an adequate understanding of mathematics but often requires support to solve more complex problems. Reading",
+            "relevant_chunks": [
+                {
+                    "score": 0.5599322319030762,
+                    "text": "tely well to the school environment but sometimes faces difficulties in motivation and perseverance. Conflict management is basic, and self-assessment",
+                    "chunk_id": "student_4_chunk_0013"
+                },
+                {
+                    "score": 0.5495977997779846,
+                    "text": "academic_skills: The student shows an adequate understanding of mathematics but often requires support to solve more complex problems. Reading compreh",
+                    "chunk_id": "student_4_chunk_0000"
+                },
+                {
+                    "score": 0.5263863801956177,
+                    "text": "student demonstrates some autonomy and responsibility in his tasks, but these qualities are inconsistent. He usually manages his emotions but occasio",
+                    "chunk_id": "student_4_chunk_0004"
+                }
+            ],
+            "weight": 0.2
+        },
+        "global grade": 6.4
+    }
+}

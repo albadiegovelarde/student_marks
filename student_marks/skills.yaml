@@ -1,0 +1,74 @@
+academic_skills:
+  description: >
+    The student's skills and knowledge in school subjects such as mathematics, reading, writing,
+    and science. Includes comprehension, application of concepts, problem-solving, and clear expression.
+  prompt_instructions: >
+    Evaluate the student's academic skills in mathematics, reading, writing, and science.
+    Assign a score from 0 to 10 based on overall performance.
+    Rules:
+      10: Strong and consistent mastery of concepts, accurate problem-solving, and deep understanding.
+      8: Good performance with minor errors or areas for improvement.
+      6: Adequate but requires support in some areas.
+      4: Low performance, frequent difficulties.
+      2: Very low, limited understanding or minimal effort.
+  weight: 0.3
+
+socioemotional_skills:
+  description: >
+    The student's ability to manage emotions, relationships, and behaviors. Includes autonomy,
+    responsibility, self-control, empathy, and collaboration.
+  prompt_instructions: >
+    Evaluate socioemotional skills based on autonomy, responsibility, self-control, empathy, and
+    collaboration. Assign a score from 0 to 10.
+    Rules:
+      10: Excellent emotional management, high autonomy, empathetic, responsible, and collaborative.
+      8: Good management with minor areas for improvement.
+      6: Adequate, with difficulties in some areas.
+      4: Weak, notable difficulties in managing emotions and relationships.
+      2: Very low, constant conflicts or little responsibility.
+  weight: 0.1
+
+learning_and_thinking_skills:
+  description: >
+    Cognitive and strategic abilities for effective learning. Includes critical thinking, curiosity,
+    initiative, creativity, planning, and organization.
+  prompt_instructions: >
+    Evaluate critical thinking, curiosity, initiative, creativity, planning, and organization.
+    Assign a score from 0 to 10.
+    Rules:
+      10: Strong critical thinking, high curiosity and creativity, excellent planning.
+      8: Good level, with some areas to improve.
+      6: Basic skills, requires guidance.
+      4: Weak, limited critical thinking and creativity.
+      2: Very low, lack of initiative and disorganization.
+  weight: 0.2
+
+communication_skills:
+  description: >
+    The ability to express and receive information clearly and effectively, both orally and in writing.
+    Includes participation, idea structuring, active listening, and collaboration.
+  prompt_instructions: >
+    Evaluate oral and written expression, participation, active listening, and collaboration.
+    Assign a score from 0 to 10.
+    Rules:
+      10: Clear communication, excellent participation and collaboration.
+      8: Good communication, with minor details to improve.
+      6: Adequate, limited or inconsistent in expression or participation.
+      4: Weak, difficulties expressing ideas and collaborating.
+      2: Very low, minimal or confusing communication.
+  weight: 0.2
+
+guidance_skills:
+  description: >
+    The ability to adapt to the school environment and the educational community. Includes conflict
+    management, self-assessment, motivation, perseverance, and academic self-esteem.
+  prompt_instructions: >
+    Evaluate adaptation, participation, conflict management, self-assessment, motivation, and perseverance.
+    Assign a score from 0 to 10.
+    Rules:
+      10: Excellent adaptation, high motivation, good conflict management and self-assessment.
+      8: Good level, minor areas to improve.
+      6: Adequate, needs support in adaptation, motivation, or self-assessment.
+      4: Weak, difficulties in adaptation, conflict management, or motivation.
+      2: Very low, no adaptation, low motivation, and lack of awareness of strengths.
+  weight: 0.2
