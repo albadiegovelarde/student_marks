@@ -121,7 +121,6 @@ print(resultados)
 - `notebooks/metrics.ipynb`: Análisis y métricas de las notas.
 - `notebooks/kmeans.ipynb`: Clustering de estudiantes según sus calificaciones.
 - `notebooks/orchestrator.ipynb`: Flujo de orquestación para generación de calificaciones y exportación.
-- `notebooks/student_grades.json`: Archivo con calificaciones generadas por `obtain_grade.py`.
 
 
 ## Configuración
