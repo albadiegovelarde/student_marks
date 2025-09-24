@@ -49,6 +49,7 @@ Instalación de dependencias:
 
 `pip install -r requirements.txt`
 
+---
 
 ## Estructura del proyecto
 
@@ -70,8 +71,9 @@ project/
 │ └── student_grades.json
 └── README.md
 `
+---
 
-## Uso
+## Uso
 
 ### 1. Construir Índice
 `python student_marks/indexer.py`
@@ -107,7 +109,7 @@ print(resultados)
 - Ejemplo de pregunta: "Quiero un resumen del alumno student_1 de la skill matematicas"
 - Devuelve un resumen conciso del desempeño del estudiante para esa competencia.
 
-### 5. Notebooks Analíticos
+### 5. Notebooks Analíticos
 
 - `notebooks/metrics.ipynb`: Análisis y métricas de las notas.
 - `notebooks/kmeans.ipynb`: Clustering de estudiantes según sus calificaciones.
