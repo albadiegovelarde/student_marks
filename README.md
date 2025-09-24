@@ -61,13 +61,19 @@ project/
 │   ├── obtain_grade.py
 │   ├── chatbot.py
 │   ├── skills.yaml
-│   └── student_reports/
-│       ├── student_1.yaml
-│       └── student_2.yaml
 ├── notebooks/
 │   ├── metrics.ipynb
 │   ├── kmeans.ipynb
 │   ├── orchestrator.ipynb
+│   └── student_grades.json
+├── data/
+│   └── student_reports/
+│       ├── student_1.yaml
+│       └── student_2.yaml
+│       └── student_3.yaml
+│       └── student_4.yaml
+│   └── student_grades_ground_truth.xlsx
+│   └── student_grades.xlsx
 │   └── student_grades.json
 └── README.md
 ```
@@ -79,7 +85,7 @@ project/
 ### 1. Construir Índice
 `python student_marks/indexer.py`
 
-- Lee todos los YAML en student_marks/student_reports/.
+- Lee todos los YAML en data/student_reports/.
 - Divide los informes en chunks con solapamiento.
 - Genera embeddings usando sentence-transformers.
 - Guarda el índice FAISS (student_marks/students_info.index) y metadata (student_marks/students_metadata.npy) en student_marks/.
@@ -120,7 +126,7 @@ print(resultados)
 
 ## Configuración
 
-- Directorio de Informes: `student_marks/student_reports/`
+- Directorio de Informes: `data/student_reports/`
 
 - Archivo de Índice y Metadata: `students_info.index` y `students_metadata.npy` en `student_marks/`
 

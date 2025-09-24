@@ -9,9 +9,9 @@ from typing import List, Dict
 class StudentIndexBuilder:
     def __init__(
         self,
-        yaml_dir: str = "./student_reports",
-        index_file: str = "students_info.index",
-        meta_file: str = "students_metadata.npy",
+        yaml_dir: str = "data/student_reports",
+        index_file: str = "student_marks/students_info.index",
+        meta_file: str = "student_marks/students_metadata.npy",
         model_emb_name: str = "all-MiniLM-L6-v2",
         chunk_size: int = 150,
         chunk_overlap: int = 50,
@@ -113,8 +113,6 @@ class StudentIndexBuilder:
         # Save index and metadata
         faiss.write_index(index, self.index_file)
         np.save(self.meta_file, all_chunks)
-        print(f"Index saved in {self.index_file}")
-        print(f"Metadata saved in {self.meta_file}")
 
 
 if __name__ == "__main__":

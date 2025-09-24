@@ -7,7 +7,7 @@ import pandas as pd
 
 
 STUDENTS_IDS = ["student_1", "student_2", "student_3", "student_4"]  # student ids
-SKILLS_YAML = "./skills.yaml"
+SKILLS_YAML = "student_marks/skills.yaml"
 
 LLM_MODEL_NAME = "google/flan-t5-large"
 MAX_TOKENS = 200

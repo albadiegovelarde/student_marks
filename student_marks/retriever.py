@@ -4,8 +4,8 @@ from sentence_transformers import SentenceTransformer
 from typing import List, Dict, Optional
 
 MODEL_EMB_NAME = "all-MiniLM-L6-v2"
-INDEX_FILE = "students_info.index"
-META_FILE = "students_metadata.npy"
+INDEX_FILE = "student_marks/students_info.index"
+META_FILE = "student_marks/students_metadata.npy"
 
 class StudentRetriever:
     def __init__(self, index_file: str = INDEX_FILE, meta_file: str = META_FILE, model_name: str = MODEL_EMB_NAME):
