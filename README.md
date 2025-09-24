@@ -129,6 +129,8 @@ print(resultados)
 
 - Archivo de Índice y Metadata: `students_info.index` y `students_metadata.npy` en `student_marks/`
 
+- Ground truth: `data/student_grades_ground_truth.xlsx`
+
 - Modelo de Embeddings: `all-MiniLM-L6-v2` (configurable)
 
 - Modelo LLM: `google/flan-t5-large` (configurable)
