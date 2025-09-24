@@ -53,7 +53,7 @@ Instalación de dependencias:
 
 ## Estructura del proyecto
 
-
+```
 project/
 ├── student_marks/
 │   ├── indexer.py
@@ -70,7 +70,7 @@ project/
 │   ├── orchestrator.ipynb
 │   └── student_grades.json
 └── README.md
-
+```
 
 ---
 
