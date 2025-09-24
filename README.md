@@ -1,4 +1,4 @@
-# Análisis del Rendimiento Estudiantil y Chatbot
+# Evaluación de alumnos
 
 Este proyecto proporciona un sistema para indexar, recuperar y analizar informes de rendimiento estudiantil utilizando búsqueda semántica y modelos de lenguaje (LLMs). Incluye generación automática de calificaciones, explicaciones y un chatbot interactivo para resúmenes por competencias.
 
@@ -55,21 +55,21 @@ Instalación de dependencias:
 
 
 project/
-├── student_marks/
-│ ├── indexer.py
-│ ├── retriever.py
-│ ├── obtain_grade.py
-│ ├── chatbot.py
-│ ├── skills.yaml
-│ └── student_reports/
-│ ├── student_1.yaml
-│ └── student_2.yaml
-├── notebooks/
-│ ├── metrics.ipynb
-│ ├── kmeans.ipynb
-│ ├── orchestrator.ipynb
-│ └── student_grades.json
-└── README.md
+|-- student_marks/
+| |-- indexer.py
+| |-- retriever.py
+| |-- obtain_grade.py
+| |-- chatbot.py
+| |-- skills.yaml
+| |-- student_reports/
+| |-- student_1.yaml
+| |-- student_2.yaml
+|-- notebooks/
+| |-- metrics.ipynb
+| |-- kmeans.ipynb
+| |-- orchestrator.ipynb
+| |-- student_grades.json
+|-- README.md
 
 ---
 
