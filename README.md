@@ -55,21 +55,22 @@ Instalación de dependencias:
 
 
 project/
-|-- student_marks/
-| |-- indexer.py
-| |-- retriever.py
-| |-- obtain_grade.py
-| |-- chatbot.py
-| |-- skills.yaml
-| |-- student_reports/
-| |-- student_1.yaml
-| |-- student_2.yaml
-|-- notebooks/
-| |-- metrics.ipynb
-| |-- kmeans.ipynb
-| |-- orchestrator.ipynb
-| |-- student_grades.json
-|-- README.md
+├── student_marks/
+│   ├── indexer.py
+│   ├── retriever.py
+│   ├── obtain_grade.py
+│   ├── chatbot.py
+│   ├── skills.yaml
+│   └── student_reports/
+│       ├── student_1.yaml
+│       └── student_2.yaml
+├── notebooks/
+│   ├── metrics.ipynb
+│   ├── kmeans.ipynb
+│   ├── orchestrator.ipynb
+│   └── student_grades.json
+└── README.md
+
 
 ---
 
