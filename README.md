@@ -14,7 +14,7 @@ Este proyecto proporciona un sistema para indexar, recuperar y analizar informes
   - [2. Recuperar Información del Estudiante](#2-recuperar-información-del-estudiante)
   - [3. Generar Calificaciones y Explicaciones](#3-generar-calificaciones-y-explicaciones)
   - [4. Interfaz de Chatbot](#4-interfaz-de-chatbot)
-- [Configuración] (#configuración)
+- [Configuración](#configuración)
 
 
 ---
