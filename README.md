@@ -1,6 +1,6 @@
 # Evaluación de alumnos
 
-Este proyecto proporciona un sistema para indexar, recuperar y analizar informes de rendimiento estudiantil utilizando búsqueda semántica y modelos de lenguaje (LLMs). Incluye generación automática de calificaciones, explicaciones y un chatbot interactivo para resúmenes por competencias.
+Este proyecto proporciona un sistema para indexar, recuperar y analizar informes de rendimiento estudiantil utilizando búsqueda semántica y modelos de lenguaje (LLMs). Incluye generación automática de calificaciones, explicaciones y un chatbot interactivo.
 
 ---
 
@@ -29,7 +29,7 @@ El sistema consta de cuatro componentes principales:
 
 3. **Generación de Calificaciones** (`obtain_grade.py`): Usa los fragmentos recuperados y un modelo de lenguaje (`google/flan-t5-large`) para generar calificaciones automáticas, explicaciones y calcular la calificación global ponderada por estudiante.
 
-4. **Chatbot** (`chatbot.py`): Proporciona una interfaz interactiva usando Gradio para consultar y resumir el desempeño del estudiante en competencias específicas.
+4. **Chatbot** (`chatbot.py`): Proporciona una interfaz interactiva usando Gradio para hacer consultas sobre el desempeño del estudiante en competencias específicas.
 
 ---
 
@@ -88,7 +88,7 @@ project/
 - Lee todos los YAML en data/student_reports/.
 - Divide los informes en chunks con solapamiento.
 - Genera embeddings usando sentence-transformers.
-- Guarda el índice FAISS (student_marks/students_info.index) y metadata (student_marks/students_metadata.npy) en student_marks/.
+- Guarda el índice FAISS (students_info.index) y metadata (students_metadata.npy) en student_marks/.
 
 ### 2. Recuperar Información del Estudiante
 ```
