@@ -11,7 +11,7 @@ from retriever import StudentRetriever
 LLM_MODEL_NAME = "google/flan-t5-large"
 MAX_TOKENS = 200
 
-SKILLS_YAML = "./skills.yaml"
+SKILLS_YAML = "student_marks/skills.yaml"
 
 ## LLM 
 tokenizer = AutoTokenizer.from_pretrained(LLM_MODEL_NAME)
@@ -58,13 +58,14 @@ def parse_user_input(user_input: str):
 
     return student_id, skill
 
-def generate_summary_prompt(chunks, skill_description):
+def generate_summary_prompt(chunks, skill_description, user_input):
     """
     Generates a prompt for the language model using relevant text chunks and the skill description.
 
     Args:
         chunks (list of dict): A list of chunks with relevant student info.
         skill_description (str): Description of the skill to summarize.
+        user_input: User query.
 
     Returns:
         str: A formatted prompt string suitable for input to the LLM.
@@ -76,7 +77,7 @@ def generate_summary_prompt(chunks, skill_description):
     Relevant information about the student:
     {text_context}
 
-    Generate a concise summary of the student's performance for this skill.
+    {user_input}
     """
     return prompt
 
@@ -112,7 +113,7 @@ def generate_student_summary(user_input: str):
         return f"No chunks for {student_id} and {skill}."
 
     # Generate prompt
-    prompt = generate_summary_prompt(chunks, skill_description)
+    prompt = generate_summary_prompt(chunks, skill_description, user_input)
 
     # Call LLM
     summary = text_gen(prompt, max_new_tokens=MAX_TOKENS)[0]["generated_text"]
@@ -122,8 +123,8 @@ def generate_student_summary(user_input: str):
 ### GRADIO
 iface = gr.Interface(
     fn=generate_student_summary,
-    inputs=gr.Textbox(lines=2, label="Escribe tu pregunta"),
-    outputs=gr.Textbox(label="Resumen del alumno", lines=3)
+    inputs=gr.Textbox(lines=2, label="Question"),
+    outputs=gr.Textbox(label="Answer", lines=3)
 )
 
 if __name__ == "__main__":
