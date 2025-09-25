@@ -58,9 +58,9 @@ def parse_user_input(user_input: str):
 
     return student_id, skill
 
-def generate_summary_prompt(chunks, skill_description, user_input):
+def generate_prompt(chunks, skill_description, user_input):
     """
-    Generates a prompt for the language model using relevant text chunks and the skill description.
+    Generates a prompt for the language model using relevant text chunks, the skill description and the user query.
 
     Args:
         chunks (list of dict): A list of chunks with relevant student info.
@@ -81,22 +81,22 @@ def generate_summary_prompt(chunks, skill_description, user_input):
     """
     return prompt
 
-def generate_student_summary(user_input: str):
+def generate_answer(user_input: str):
     """
-    Processes a user query to generate a concise summary of a student's performance for a specific skill.
+    Generate answer.
 
     Steps:
         1. Parse the user input to extract student_id and skill.
         2. Validate the extracted skill exists in the YAML.
         3. Retrieve the top-k relevant chunks for the student and skill.
-        4. Generate a prompt combining the skill description and relevant chunks.
-        5. Call the language model to produce a summary.
+        4. Generate the prompt.
+        5. Call the language model.
     
     Args:
         user_input (str): The user's question or request.
 
     Returns:
-        str: Generated summary text or an error message if extraction or retrieval fails.
+        str: Generated answer or an error message if extraction or retrieval fails.
     """
     student_id, skill = parse_user_input(user_input)
 
@@ -113,7 +113,7 @@ def generate_student_summary(user_input: str):
         return f"No chunks for {student_id} and {skill}."
 
     # Generate prompt
-    prompt = generate_summary_prompt(chunks, skill_description, user_input)
+    prompt = generate_prompt(chunks, skill_description, user_input)
 
     # Call LLM
     summary = text_gen(prompt, max_new_tokens=MAX_TOKENS)[0]["generated_text"]
@@ -122,7 +122,7 @@ def generate_student_summary(user_input: str):
 
 ### GRADIO
 iface = gr.Interface(
-    fn=generate_student_summary,
+    fn=generate_answer,
     inputs=gr.Textbox(lines=2, label="Question"),
     outputs=gr.Textbox(label="Answer", lines=3)
 )
