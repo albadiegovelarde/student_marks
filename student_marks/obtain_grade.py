@@ -49,7 +49,7 @@ def generate_prompt(instructions: str, chunks: List[Dict]) -> str:
         chunks (List[Dict]): List of dictionaries containing relevant text chunks for the student.
 
     Returns:
-        str: A formatted prompt string ready to be passed to the LLM.
+        str: Prompt to be passed to the LLM.
     """
     text_context = "\n\n".join([c["text"] for c in chunks])
     prompt = f"""
@@ -114,11 +114,10 @@ def compute_global_mark(grades: Dict[str, Dict], skills: Dict[str, Dict]) -> flo
 
     Args:
         grades (Dict[str, Dict]): Dictionary of grades per skill for a student. 
-                                  Each value should include 'grade' and other info.
-        skills (Dict[str, Dict]): Dictionary of skill metadata, including 'weight' for each skill.
+        skills (Dict[str, Dict]): Dictionary of skill data.
 
     Returns:
-        float: The weighted average grade rounded to 2 decimals, or None if no valid grades are available.
+        float: The weighted average grade or None if no valid grades are available.
     """
     total_weight = 0
     weighted_sum = 0

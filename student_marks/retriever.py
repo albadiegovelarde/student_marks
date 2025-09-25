@@ -12,11 +12,11 @@ class StudentRetriever:
         """
         This class loads a FAISS index and corresponding metadata,
         and allows retrieval of the most relevant text chunks for a given student
-        using semantic search with sentence embeddings.
+        and skill using embeddings.
 
         Args:
             index_file (str): Path to the FAISS index file.
-            meta_file (str): Path to the metadata file (.npy) containing information about the text chunks.
+            meta_file (str): Path to the metadata file.
             model_name (str): Name of the sentence-transformers embedding model.
         """
         self.index = faiss.read_index(index_file)
@@ -27,12 +27,12 @@ class StudentRetriever:
 
     def retrieve(self, query: str, student_id: str, top_k: int = 3) -> List[Dict]:
         """
-        Retrieve the most relevant text chunks for a specific student based on a query.
+        Retrieve the most relevant text chunks for a specific student and skill.
 
         Args:
-            query (str): The input query or description used for retrieval.
+            query (str): The input query (description of the skill).
             student_id (str): Identifier of the student whose chunks should be retrieved.
-            top_k (int, optional): Maximum number of chunks to return. Defaults to 5.
+            top_k (int, optional): Maximum number of chunks to return.
 
         Returns:
             List[Dict]: A list of dictionaries containing the retrieved chunks.
