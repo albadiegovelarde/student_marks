@@ -91,7 +91,8 @@ project/
 - Guarda el índice FAISS (student_marks/students_info.index) y metadata (student_marks/students_metadata.npy) en student_marks/.
 
 ### 2. Recuperar Información del Estudiante
-`from student_marks.retriever import StudentRetriever
+```
+from student_marks.retriever import StudentRetriever
 
 retriever = StudentRetriever()
 resultados = retriever.retrieve(
@@ -100,7 +101,7 @@ resultados = retriever.retrieve(
     top_k=3
 )
 print(resultados)
-`
+```
 
 ### 3. Generar Calificaciones y Explicaciones
 `python student_marks/obtain_grade.py`
