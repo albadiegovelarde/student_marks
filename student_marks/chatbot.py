@@ -38,10 +38,6 @@ def parse_user_input(user_input: str):
     """
     Extracts the student ID and skill from a user question.
 
-    Example:
-        Input: "Quiero que me hagas un resumen del alumno student_1 de la skill math"
-        Output: ("student_1", "math")
-
     Args:
         user_input (str): The user-provided question or query.
 
