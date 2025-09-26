@@ -23,7 +23,7 @@ Este proyecto proporciona un sistema para indexar, recuperar y analizar informes
 
 El sistema consta de cuatro componentes principales:
 
-1. **Indexación** (`indexer.py`): Lee informes estudiantiles en formato YAML, los divide en chunks, genera embeddings usando `sentence-transformers` y construye un índice FAISS para búsqueda semántica eficiente.
+1. **Indexación** (`indexer.py`): Lee informes estudiantiles en formato YAML, los divide en chunks, genera embeddings usando `sentence-transformers` y construye un índice FAISS para búsqueda semántica.
 
 2. **Recuperación** (`retriever.py`): Carga el índice FAISS y permite recuperar los fragmentos más relevantes para un estudiante y consulta específica.
 
@@ -114,14 +114,13 @@ print(resultados)
 `python student_marks/chatbot.py`
 
 - Lanza una interfaz Gradio.
-- Ejemplo de pregunta: "Quiero un resumen del alumno student_1 de la skill matematicas"
-- Devuelve un resumen conciso del desempeño del estudiante para esa competencia.
+- Ejemplo de pregunta: "I want you to send me a summary of student_1 and skill academic_skills."
 
-### 5. Notebooks Analíticos
+### 5. Notebooks
 
-- `notebooks/metrics.ipynb`: Análisis y métricas de las notas.
-- `notebooks/kmeans.ipynb`: Clustering de estudiantes según sus calificaciones.
 - `notebooks/orchestrator.ipynb`: Flujo de orquestación para generación de calificaciones y exportación.
+- `notebooks/metrics.ipynb`: Análisis y métricas de las notas obtenidas.
+- `notebooks/kmeans.ipynb`: Clustering de estudiantes según sus calificaciones.
 
 
 ## Configuración
